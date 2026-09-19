@@ -1,0 +1,53 @@
+﻿# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production builds & dist
+dist/
+frontend/dist/
+build/
+.next/
+.vercel/
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+env/
+venv/
+.venv/
+conda-env/
+
+# PyTest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+!.env.example
+
+# IDEs & System
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary files
+*.log
+logs/
+temp/
+tmp/
+scratch/
+
+# Large training / dataset cache
+*.tar.gz
+*.zip
